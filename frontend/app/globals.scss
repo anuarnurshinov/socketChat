@@ -1,0 +1,30 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, #8e2de2, #7954c2);
+  height: 100vh;
+}
+
+body {
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.verticalCenter {
+  top: 50%;
+  position: relative;
+  transform: translate(0px, -50%);
+}
